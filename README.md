@@ -1,17 +1,17 @@
 Minimal Vrac - Backend
 
 Configuration ⚙️
-Copier le fichier .envSample en le renomant .env 
+Copy the .envSample file and renaming it .env
 
-Éditer le fichier .env avec les informations suivantes :
+Edit the .env file with:
 
-DB_HOST : Le port de l'application
-DB_USER : l'utilisateur de la base de données
-DB_PASSWORD : mot de passe de l'utilisateur
-DB_NAME : le nom de la base de données
+DB_HOST : Local host
+DB_USER : the database user
+DB_PASSWORD : the database password
+DB_NAME : the name of the database
 
-Commandes package.json 📜
-Démarrage en mode production
+Package.json commandes📜
+Start in production mode
 $ npm start
 
 
