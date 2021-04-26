@@ -5,7 +5,7 @@ const app = express()
 const authRouter = require('../routes/auth.js')
 const connection = require('../src/config')
 const routes = require('../routes/index')
-const port = 4242
+const port = process.env.PORT
 
 app.use(cors('*'))
 app.use(express.json())
